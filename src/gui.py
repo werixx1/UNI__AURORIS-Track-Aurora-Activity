@@ -113,7 +113,7 @@ class Auroris(ctk.CTk):
             popup.resizable(False, False)
             popup.grab_set()
 
-            with open("../docs/how_does_it_work.txt") as file:
+            with open("./docs/how_does_it_work.txt") as file:
                 text = file.read()
 
             scrollable_frame = ctk.CTkScrollableFrame(popup)

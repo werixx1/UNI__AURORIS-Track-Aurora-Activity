@@ -19,6 +19,36 @@ Auroris is an interactive application that helps users track aurora activity and
 - Aurora Forecast: Fetches the current KP index for auroral activity at the user's location to indicate whether auroras are visible.
 - Live Viewing: Provides links to live aurora streams from various locations around the world.
 - Resources: Includes links to relevant APIs and libraries used in the app.
+## Installation
+
+1.  Clone the repository:
+    
+    ```
+    git clone https://github.com/werixx1/UNI__AURORIS-Track-Aurora-Activity.git>
+    cd <project-directory>
+    ```
+    
+2.  Create virtual enviroment:
+    
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+    
+3.  Download required packages:
+    
+    ```
+    pip install -r requirements.txt
+    ```
+       
+## Usage
+
+Run the application:
+
+```
+python3 main.py
+```
+
 
 ## How it Works
    - Get User Location: The app uses the IP address to determine the user's current geographical location (latitude and longitude).
@@ -33,6 +63,8 @@ auroris/
 ├── src/                    # Application source code
 │   └── images/             # Images used in the GUI
 ├── docs/                   # Additional documentation
+├── requirements.txt        # Required packages
+├── main.py       
 └── README.md
 ```
 ## Figma elements used to design GUI
